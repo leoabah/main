@@ -1,0 +1,32 @@
+
+
+.btn{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 2.5rem;
+    font-size: large;
+    &__primary {
+        &-solid {
+            background-color: $primary-color;
+            color:$light-font-color;
+            &:hover{
+                background-color:$secondary-dark-color ;
+                color:$light-font-color ;
+            }
+        }
+       };
+    &__secondary {
+        &-solid{
+            background-color: $secondary-light-color;
+            color: $dark-font-color;
+             &:hover{
+                background-color: $secondary-dark-color;
+                color: $light-font-color;
+            }
+        }
+    }
+}
+ .content__container .btn{
+     display: flex;
+    
+}

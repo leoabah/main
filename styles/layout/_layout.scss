@@ -1,0 +1,105 @@
+
+
+
+.aboutMe {
+   padding:2rem;
+}
+.title-skills{
+    padding:0 2rem ;
+}
+.skills-container{
+    display:flex;
+    gap:4rem;
+    padding: 2rem;
+}
+.Skills{
+    background-color: #dbd6d6;
+    display: flex;
+    flex-direction:column;
+    padding:1rem 0;
+    margin-top: 10px;
+}
+
+.skills-grid{
+    display: flex;
+     align-items: start;
+    padding: 0 5px;
+    gap: 1rem;
+    display: flex;
+}
+.skill-card{
+    background-color: $light-font-color;
+    width:8rem;
+    height:7rem;
+    padding:3px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.skill-card img{
+    max-width: 124px;
+    max-height: 80px;
+}
+.skills-blandas ul{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.proyecto{
+    padding:2rem;
+}
+
+.proyecto-grid{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 1470px;
+    max-height: 500px;
+    //border: 2px solid black;
+}
+.proyecto-card{
+    //border: 2px solid black; 
+    width: 490px; 
+
+}
+.proyecto-card img{
+    width: 411px;
+    border-radius: 5px;
+}
+.proyecto-card p{
+padding: 8px;
+}
+
+.proyecto-card span{
+    -webkit-text-stroke: medium
+}
+.proyecto-card .btn{
+    padding:0.32rem 1.25rem;
+}
+
+.education{
+    padding: 2rem;
+}
+.school{
+    display:flex;
+    flex-direction:column;
+}
+.school p{
+    display: flex;
+    align-items: center;
+    font-size:22px;
+
+}
+.school img{
+width: 38px;
+
+}
+.school span{
+    -webkit-text-stroke: medium;
+    
+}

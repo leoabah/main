@@ -1,0 +1,32 @@
+
+
+header {
+    padding: 2rem;
+    background-color: $primary-dark-color;
+    color: $light-font-color;
+    flex-wrap: wrap;
+    //gap: 1rem;
+    
+    @media (max-width: 768px) {
+        padding: 1rem;
+        flex-direction: column;
+    }
+}
+
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.hero-content{
+    align-self: baseline;
+}
+.open-title{
+    font-size:x-large;
+}
+.picture{
+    padding:1rem;
+}
+.picture img{
+    max-height: 45rem;
+}
