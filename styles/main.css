@@ -198,4 +198,30 @@ header {
 
 .school span {
   -webkit-text-stroke: medium;
+}
+
+footer {
+  background-color: #2C3B55;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.contacto p {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.contacto a {
+  padding: 5px;
+  text-decoration: none;
+  color: #FBFCFD;
+}
+
+.contacto img {
+  width: 45px;
 }/*# sourceMappingURL=main.css.map */
