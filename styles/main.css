@@ -19,6 +19,11 @@ h1, h2, h3, h4, p, span, div {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #FBFCFD;
+}
+
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -79,6 +84,10 @@ header {
 
 .open-title {
   font-size: x-large;
+}
+
+.btn-group a {
+  text-decoration: none;
 }
 
 .picture {
