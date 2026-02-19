@@ -10,6 +10,11 @@ header {
     @media (max-width: 768px) {
         padding: 1rem;
         flex-direction: column;
+        
+        .btn-group buttom {
+            margin-bottom:10px;
+            }
+        
     }
 }
 
