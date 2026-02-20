@@ -55,9 +55,13 @@ Git & GitHub	Control de versiones y hospedaje del código
 
 Lionel_Portafolio/
 ├── assets/        # Imágenes, iconos y recursos visuales
+
 ├── styles/        # SCSS/CSS de la web
+
 ├── index.html     # Página principal
+
 ├── script.js      # JavaScript de interactividad
+
 └── README.md      # Documentación del proyecto
 📊 En el repositorio predominan HTML (~51%), SCSS (~28%), CSS (~21%) y algo de JavaScript (~0.7%) como lenguajes principales.
 
